@@ -18,6 +18,6 @@ public class exampleCode {
 		System.out.println("Would you like to add or subtract the two numbers? (0 for add, 1 for subtract)");
 		int addOrSub = input.nextInt();
 
+		
 	}
 
-}
