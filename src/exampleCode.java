@@ -20,7 +20,6 @@ public class exampleCode {
 
 		//Feature 1 - Add the two numbers and print the result
 		
-		
 		if (addOrSub == 0) {
 			System.out.println("The sum is " + add(num1, num2)); 
 			}
@@ -31,6 +30,7 @@ public class exampleCode {
 		int result = num1 + num2;
 		return result; 
 	}
+	
 }
 
 
