@@ -23,14 +23,28 @@ public class exampleCode {
 		if (addOrSub == 0) {
 			System.out.println("The sum is " + add(num1, num2)); 
 			}
-		}
+		
+		//Feature 2 - Sub the two numbers and print the result
 
+		else if (addOrSub == 1) {
+			System.out.println("The difference is " + sub(num1, num2));
+			}
+		
+		else {
+			System.out.println("Invalid input. Shutting down...");
+		}
+		
+		}
 			
 	public static int add (int num1, int num2) {
 		int result = num1 + num2;
 		return result; 
 	}
 	
+	public static int sub (int num1, int num2) {
+		int result = num1 - num2;
+		return result;
+	}
 }
 
 
