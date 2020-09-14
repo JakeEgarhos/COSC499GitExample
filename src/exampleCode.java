@@ -30,6 +30,7 @@ public class exampleCode {
 			System.out.println("The difference is " + sub(num1, num2));
 			}
 		
+		//failsafe
 		else {
 			System.out.println("Invalid input. Shutting down...");
 		}
